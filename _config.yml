@@ -1,0 +1,57 @@
+
+# SEO settings
+title: "Breef"
+title2: "notes" # default: ""
+description: "A small dev refernce book."
+keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, breefnotes"
+url: http://gsaandy.com # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/gsaandy/
+# disqus_shortname: "hnbloggithub"
+twitter_username: "gsaandy"
+comments: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "sandeep.gs"
+  job      : "Software Engineer"
+  thumb    : /images/author.jpg
+  email    : sandeepgs3@gmail.com
+  url      : http://gsaandy.com
+  github   : http://github.com/gsaandy
+  twitter  : http://twitter.com/gsaandy
+  facebook : https://www.facebook.com/gsaandy
+
+# social settings
+og_locale: "en_UK"
+twitter_card: "summary_large_image"
+twitter_site: "@gsaandy"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
