@@ -6,7 +6,7 @@ description: "How to show hidden files in mac"
 keywords: "mac, macos, how to show hidden files, hide hidden files"
 ---
 
-#### How to install Homebrew
+#### How to show/hide hidden files in Mac
 
 Add the following snippet to `~/.bash_profile`
 {% highlight bash %}
