@@ -8,7 +8,7 @@ keywords: "mac, macos, how to show hidden files, hide hidden files"
 
 #### How to show/hide hidden files in Mac
 
-*Add the following snippet to `~/.bash_profile`
+* Add the following snippet to `~/.bash_profile`
 {% highlight bash %}
 alias show_files="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
 alias hide_files="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
