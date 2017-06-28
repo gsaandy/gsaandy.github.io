@@ -8,14 +8,22 @@ keywords: "mac, macos, how to show hidden files, hide hidden files"
 
 #### How to install Homebrew
 
-Add the following snippet to ~/.bash_profile
+Add the following snippet to `~/.bash_profile`
 {% highlight bash %}
 alias show_files="defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app"
 alias hide_files="defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app"
 {% endhighlight %}
 
-* Restart the terminal
+* Reload the changes
+{% highlight bash %}
+source ~/.bash_profile
+{% endhighlight %}
 * To show the hidden file
-  *show_files
+{% highlight bash %}
+show_files
+{% endhighlight %}
 * To hide files
-  *hide_files
+{% highlight bash %}
+hode_files
+{% endhighlight %}
+
