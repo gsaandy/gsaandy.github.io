@@ -17,3 +17,4 @@ sudo apt-get update
 {% highlight bash %}
 sudo apt-get install exfat-fuse exfat-utils
 {% endhighlight %}
+Installing the above packages alone will auto-mounts your exFAT formatted drives
