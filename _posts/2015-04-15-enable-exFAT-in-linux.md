@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Linux - Enable exFAT"
